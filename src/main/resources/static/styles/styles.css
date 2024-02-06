@@ -1,0 +1,56 @@
+html {
+    background-color: blueviolet;
+
+}
+
+body {
+    background-color: beige;
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2 {
+    margin: 6px 0;
+    font-weight: bolder;
+}
+
+.movie {
+    border: 1px solid tomato;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+form {
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+    label {
+        margin: 6px 6px;
+    }
+
+    input {
+        margin: 6px 6px;
+    }
+
+
+}
+button {
+     margin: 6px 6px;
+
+
+     &:hover {
+         background-color: tomato;
+
+     }
+ }
